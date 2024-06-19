@@ -24,6 +24,18 @@ The primary goal of this project is to predict housing prices based on various f
 
 The main objective of this project is to develop a predictive model that accurately estimates housing prices based on various attributes, such as the number of rooms, bathrooms, and other available feautures. By utilizing machine learning algorithms, we aim to provide potential homebuyers and real estate professionals with reliable price predictions, enabling them to make more informed decisions in the housing market.
 
+### Exploratroy Data Analysis (EDA)
+
+We performed extensive Exploratory Data Analysis (EDA) to understand the underlying patterns and relationships in the dataset. The EDA was divided into three main parts:
+##
+1. Univariate Analysis: Examined individual features in the dataset to understand their distributions and detect any anomalies.
+2. Bivariate Analysis: Analyzed relationships between pairs of features to identify correlations and potential predictors for housing prices.
+3. Multivariate Analysis: Explored interactions between multiple features simultaneously to uncover complex relationships.
+
+### Machine Learning Approach
+
+For the predictive model, we will employ sklearn Random Forest Regressor to understand and model the relationship between the input features (e.g., number of rooms, bathrooms, amenities) and housing prices. Random Forest Regressor is chosen for its simplicity and effectiveness in handling this type of regression problem. The model will be saved into a pickle file.
+
 ### Front End Development
 
 We will develop an intuitive and user-friendly website where users can input details about a property, including the number of rooms, bathrooms, and other relevant amenities. The website will then utilize our predictive model to estimate the property's market price, offering users immediate insights based on their inputs.
@@ -32,9 +44,6 @@ We will develop an intuitive and user-friendly website where users can input det
 
 We will develop a Flask application to deploy our predictive model and manage the different routes for the website. The backend will be responsible for processing user inputs, querying the machine learning model, and returning the predicted housing prices.
 
-### Machine Learning Approach
-
-For the predictive model, we will employ sklearn Random Forest Regressor to understand and model the relationship between the input features (e.g., number of rooms, bathrooms, amenities) and housing prices. Random Forest Regressor is chosen for its simplicity and effectiveness in handling this type of regression problem. The model will be saved into a pickle file.
 
 ### Technologies and Tools
 
