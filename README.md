@@ -37,8 +37,8 @@ For the predictive model, we will employ sklearn Random Forest Regressor to unde
 - **Programming Language**: The primary language for data preprocessing, exploratory data analysis (EDA), and model development will be Python. TensorFlow for Java will be used for implementing the machine learning model.
 - **Frameworks and Libraries**:
   - **Data Preprocessing and EDA**: Pandas, NumPy, Matplotlib
-  - **Machine Learning**: Random Forest Regressor
-  - **Web Development**: HTML, Flask (integrated with Java)
+  - **Machine Learning**: Random Forest Regressor -saving trained model with pickle-
+  - **Web Development**: HTML, Java, and Flask
 
 ### Dataset
 
@@ -65,11 +65,11 @@ The dataset for training and testing our model is sourced from Kaggle, specifica
 
 - **Machine Learning Model Development**
   - **Team Members**: Jess and Rossie
-  - **Tasks**: Developing the Random Forest Regressor model using sklearn , and using visualization plot for feature importance for optimal performance.
+  - **Tasks**: Developing the Random Forest Regressor model using sklearn , using visualization plot for feature importance for optimal performance, and saving trained model with pickle.
 
 - **Website Development**
   - **Team Member**: Francesca
-  - **Tasks**: Designing and developing the website using HTML and Flask (via Java), ensuring seamless integration with the predictive model.
+  - **Tasks**: Designing and developing the website using Flask, HTML, Java, and pickle to ensuring seamless integration with the predictive model.
 
 ### Repository
 
