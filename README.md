@@ -89,7 +89,7 @@ The dataset for training and testing our model is sourced from Kaggle, specifica
 
 ### Repository
 
-For more detailed information and access to our codebase, please visit our project repository: [Link to Repository(https://github.com/RossieJimenez/House-Price-Prediction-Project.git)](#) <!--  -->
+For more detailed information and access to our codebase, please visit our project repository: [Link to Repository](https://github.com/RossieJimenez/House-Price-Prediction-Project.git)(#) <!--  -->
 
 ### Setup and Installation
 
@@ -99,7 +99,7 @@ For more detailed information and access to our codebase, please visit our proje
 
 2. **Navigate to the project directory**:
    ```bash
-    cd predict-housing-prices
+    cd House-Price-Prediction-Project
 
 3. **Install the necessary Python packages**:
     ```bash
@@ -113,11 +113,11 @@ For more detailed information and access to our codebase, please visit our proje
 
 2. **Perform exploratory data analysis**:
    ```bash
-    python eda.py
+    python EDA.py
 
 3. **Train the linear regression model**:
     ```bash
-    python train_model.py
+    python Random Forest Model Final.py
 
 4. **Start the web application**:
     ```bash
