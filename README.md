@@ -89,7 +89,7 @@ The dataset for training and testing our model is sourced from Kaggle, specifica
 
 ### Repository
 
-For more detailed information and access to our codebase, please visit our project repository: [Link to Repository](https://github.com/RossieJimenez/House-Price-Prediction-Project.git)(#) <!--  -->
+For more detailed information and access to our codebase, please visit our project repository: [Link to Repository](https://github.com/RossieJimenez/House-Price-Prediction-Project.git) <!--  -->
 
 ### Setup and Installation
 
@@ -111,10 +111,10 @@ For more detailed information and access to our codebase, please visit our proje
    ```bash
     http://localhost:5000
 
-2. **Enter the property details in the input form**:
+2. *Enter the property details in the input form*
 
 
-3. **Click "Predict" to see the estimated housing price**:
+3. *Click **"Predict"** to see the estimated housing price*
 
 
 ### Project  Future Improvements
