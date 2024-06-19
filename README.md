@@ -62,18 +62,32 @@ The dataset for training and testing our model is sourced from Kaggle, specifica
 
 #### Dataset Features
 
-- **Number of rooms**
-- **Number of bathrooms**
-- **Square footage**
-- **Amenities**
-- **Location**
+- **ID**
+- **Date**
+- **Bedrooms**
+- **Bathrooms**
+- **Floors**
+- **Sqft of Living Space**
+- **Sqft of Lot**
+- **Waterfront**
+- **View**
+- **Condition**
+- **Grade**
+- **Sqft Above**
+- **Sqft Basement**
+- **Year Built**
+- **Year Renovated**
+- **Zipcode**
+- **Latitude and Longitude**
+- **Sqft Living15**
+- **Sqft Lot15**
 - **Price** (target variable)
 
 ### Team Responsibilities
 
 - **Data Cleaning**
   - **Team Member**: Rodney
-  - **Tasks**: Cleaning and preparing the dataset for analysis using Python.
+  - **Tasks**: Cleaning and preparing the dataset for analysis using Python, and updating the dataset post-cleaning.
 
 - **Exploratory Data Analysis (EDA)**
   - **Team Members**: Jess and Rossie
