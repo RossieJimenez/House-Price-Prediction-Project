@@ -97,41 +97,30 @@ For more detailed information and access to our codebase, please visit our proje
    ```bash
    git clone [repository link]
 
-2. **Navigate to the project directory**:
+2. **Install required dependencies**:
    ```bash
-    cd House-Price-Prediction-Project
-
-3. **Install the necessary Python packages**:
-    ```bash
     pip install -r requirements.txt
+
+3. **Run the Flask app**:
+    ```bash
+    python app.py
 
 ### Usage
 
-1. **Run the data cleaning script**:
+1. **Open the web browser and navigate**:
    ```bash
-   python data_cleaning.py
+    http://localhost:5000
 
-2. **Perform exploratory data analysis**:
-   ```bash
-    python EDA.py
+2. **Enter the property details in the input form**:
 
-3. **Train the linear regression model**:
-    ```bash
-    python Random Forest Model Final.py
 
-4. **Start the web application**:
-    ```bash
-    flask run
+3. **Click "Predict" to see the estimated housing price**:
 
-Open your browser and navigate to http://localhost:5000 to use the application.
 
-Project Status and Future Improvements
+### Project  Future Improvements
+The project is currently in the initial stages. Future improvements include:
 
-permalink: /index_test.html
-
-This project is currently in development. Future improvements include:
-
-Adding more features to the model for better predictions.
-Implementing a more advanced machine learning algorithm.
-Enhancing the user interface of the website.
-Providing deployment instructions for cloud platforms.
+* Adding more features to the model for better predictions.
+* Implementing a more advanced machine learning algorithm.
+* Enhancing the user interface of the website.
+* Providing deployment instructions for cloud platforms.
