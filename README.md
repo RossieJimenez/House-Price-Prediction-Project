@@ -27,10 +27,12 @@ The main objective of this project is to develop a predictive model that accurat
 ### Exploratroy Data Analysis (EDA)
 
 We performed extensive Exploratory Data Analysis (EDA) to understand the underlying patterns and relationships in the dataset. The EDA was divided into three main parts:
-##
-1. Univariate Analysis: Examined individual features in the dataset to understand their distributions and detect any anomalies.
-2. Bivariate Analysis: Analyzed relationships between pairs of features to identify correlations and potential predictors for housing prices.
-3. Multivariate Analysis: Explored interactions between multiple features simultaneously to uncover complex relationships.
+
+1. **Univariate Analysis**: Examined individual features in the dataset to understand their distributions and detect any anomalies.
+   
+2. **Bivariate Analysis**: Analyzed relationships between pairs of features to identify correlations and potential predictors for housing prices.
+   
+3. **Multivariate Analysis**: Explored interactions between multiple features simultaneously to uncover complex relationships.
 
 ### Machine Learning Approach
 
