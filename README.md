@@ -91,7 +91,7 @@ The dataset for training and testing our model is sourced from Kaggle, specifica
 
 - **Exploratory Data Analysis (EDA)**
   - **Team Members**: Jess and Rossie
-  - **Tasks**: Performing EDA to uncover patterns and relationships within the data, particularly focusing on how features like the number of bedrooms, bathrooms, and square footage correlate with housing prices.
+  - **Tasks**: Performing EDA using the updated dataset to uncover patterns and relationships within the data, particularly focusing on how features like the number of bedrooms, bathrooms, and square footage correlate with housing prices.
 
 - **Machine Learning Model Development**
   - **Team Members**: Jess and Rossie
