@@ -22,24 +22,29 @@ The primary goal of this project is to predict housing prices based on various f
 
 ### Objective
 
-The primary goal of this project is to predict housing prices based on various factors, such as the number of rooms, bathrooms, and available amenities. By leveraging machine learning techniques, we aim to provide accurate and reliable price estimates to help potential homebuyers and real estate professionals make informed decisions.
+The main objective of this project is to develop a predictive model that accurately estimates housing prices based on various attributes, such as the number of rooms, bathrooms, and other available feautures. By utilizing machine learning algorithms, we aim to provide potential homebuyers and real estate professionals with reliable price predictions, enabling them to make more informed decisions in the housing market.
 
 ### Front End Development
 
 We will develop an intuitive and user-friendly website where users can input details about a property, including the number of rooms, bathrooms, and other relevant amenities. The website will then utilize our predictive model to estimate the property's market price, offering users immediate insights based on their inputs.
 
+### Back End Development
+
+We will develop a Flask application to deploy our predictive model and manage the different routes for the website. The backend will be responsible for processing user inputs, querying the machine learning model, and returning the predicted housing prices.
+
 ### Machine Learning Approach
 
-For the predictive model, we will employ sklearn Random Forest Regressor to understand and model the relationship between the input features (e.g., number of rooms, bathrooms, amenities) and housing prices. Random Forest Regressor is chosen for its simplicity and effectiveness in handling this type of regression problem.
+For the predictive model, we will employ sklearn Random Forest Regressor to understand and model the relationship between the input features (e.g., number of rooms, bathrooms, amenities) and housing prices. Random Forest Regressor is chosen for its simplicity and effectiveness in handling this type of regression problem. The model will be saved into a pickle file.
 
 ### Technologies and Tools
 
-- **Programming Language**: The primary language for data preprocessing, exploratory data analysis (EDA), and model development will be Python. TensorFlow for Java will be used for implementing the machine learning model.
+- **Programming Language**: The primary language for data preprocessing, exploratory data analysis (EDA), and model development will be Python. 
 - **Frameworks and Libraries**:
-  - **Data Preprocessing and EDA**: Pandas, NumPy, Matplotlib
-  - **Machine Learning**: Random Forest Regressor -saving trained model with pickle-
-  - **Web Development**: HTML, Java, and Flask
-
+  - **Front End**: HTML, CSS, JavaScript
+  - **Back End**: Flask, Python
+  - **Machine Learning**: scikit-learn, pandas, numpy
+  - **Model Serialization**: pickle
+ 
 ### Dataset
 
 The dataset for training and testing our model is sourced from Kaggle, specifically the [Housing Price Dataset](https://www.kaggle.com/datasets/sukhmandeepsinghbrar/housing-price-dataset/data). This dataset includes various attributes relevant to housing prices, allowing for comprehensive analysis and model training.
@@ -65,11 +70,11 @@ The dataset for training and testing our model is sourced from Kaggle, specifica
 
 - **Machine Learning Model Development**
   - **Team Members**: Jess and Rossie
-  - **Tasks**: Developing the Random Forest Regressor model using sklearn , using visualization plot for feature importance for optimal performance, and saving trained model with pickle.
+  - **Tasks**: Developing the Random Forest Regressor model using scikit-learn, using visualization plot for feature importance for optimal performance, and saving trained model with pickle.
 
-- **Website Development**
+- **Website Development (Front End and Back End Development)**
   - **Team Member**: Francesca
-  - **Tasks**: Designing and developing the website using Flask, HTML, Java, and pickle to ensuring seamless integration with the predictive model.
+  - **Tasks**: Responsible for designing and implementing the user interface, setting up the server, and integrating the model. 
 
 ### Repository
 
