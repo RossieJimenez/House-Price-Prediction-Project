@@ -89,7 +89,7 @@ The dataset for training and testing our model is sourced from Kaggle, specifica
 
 ### Repository
 
-For more detailed information and access to our codebase, please visit our project repository: [Link to Repository](#) <!-- Add your repository link here -->
+For more detailed information and access to our codebase, please visit our project repository: [Link to Repository](#) <!-- https://github.com/RossieJimenez/House-Price-Prediction-Project.git -->
 
 ### Setup and Installation
 
